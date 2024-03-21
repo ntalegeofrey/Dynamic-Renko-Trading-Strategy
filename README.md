@@ -1,0 +1,1 @@
+# Dynamic-Renko-Trading-Strategy
