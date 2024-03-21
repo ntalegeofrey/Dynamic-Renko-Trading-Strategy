@@ -16,19 +16,19 @@ Run the script using Python:
 `python dynamicRenko.py`
 
 ### Description
-Fetch_asset_data: Fetches historical OHLCV (Open, High, Low, Close, Volume) data for a specified symbol from a cryptocurrency exchange.
+* fetch_asset_data: Fetches historical OHLCV (Open, High, Low, Close, Volume) data for a specified symbol from a cryptocurrency exchange.
 
-renko_data: Generates Renko bricks based on the fetched OHLCV data. The brick size is optimized using the Average True Range (ATR).
+* renko_data: Generates Renko bricks based on the fetched OHLCV data. The brick size is optimized using the Average True Range (ATR).
 
-generate_positions: Generates buy and sell signals based on Renko bricks. Positions are created when the color of the brick changes.
+* generate_positions: Generates buy and sell signals based on Renko bricks. Positions are created when the color of the brick changes.
 
-calculate_strategy_performance: Calculates the performance of the trading strategy, including overall P/L, maximum drawdown, etc.
+* calculate_strategy_performance: Calculates the performance of the trading strategy, including overall P/L, maximum drawdown, etc.
 
-plot_candlestick: Plots the candlestick chart for the fetched OHLCV data.
+* plot_candlestick: Plots the candlestick chart for the fetched OHLCV data.
 
-plot_renko: Plots the Renko chart along with buy and sell signals.
+* plot_renko: Plots the Renko chart along with buy and sell signals.
 
-plot_performance_curve: Plots the performance curve showing the cumulative balance over time.
+* plot_performance_curve: Plots the performance curve showing the cumulative balance over time.
 
 ### Customization
 Modify the symbol, start_date, and interval variables to fetch data for a different cryptocurrency pair, start date, and interval.
